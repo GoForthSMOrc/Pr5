@@ -39,12 +39,12 @@
             this.NewArticles.Location = new System.Drawing.Point(12, 12);
             this.NewArticles.Multiline = true;
             this.NewArticles.Name = "NewArticles";
-            this.NewArticles.Size = new System.Drawing.Size(478, 415);
+            this.NewArticles.Size = new System.Drawing.Size(454, 46);
             this.NewArticles.TabIndex = 0;
             // 
             // NewArticle
             // 
-            this.NewArticle.Location = new System.Drawing.Point(539, 316);
+            this.NewArticle.Location = new System.Drawing.Point(129, 159);
             this.NewArticle.Name = "NewArticle";
             this.NewArticle.Size = new System.Drawing.Size(214, 111);
             this.NewArticle.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // Conditions
             // 
-            this.Conditions.Location = new System.Drawing.Point(516, 12);
+            this.Conditions.Location = new System.Drawing.Point(12, 90);
             this.Conditions.Multiline = true;
             this.Conditions.Name = "Conditions";
             this.Conditions.Size = new System.Drawing.Size(112, 46);
@@ -64,7 +64,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(649, 29);
+            this.label1.Location = new System.Drawing.Point(148, 107);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 13);
             this.label1.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(473, 288);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Conditions);
             this.Controls.Add(this.NewArticle);

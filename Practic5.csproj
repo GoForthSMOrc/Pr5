@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="DBMySQLUtils.cs" />
     <Compile Include="DBUtils.cs" />
+    <Compile Include="FindArticles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindArticles.Designer.cs">
+      <DependentUpon>FindArticles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FindArticles.resx">
+      <DependentUpon>FindArticles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

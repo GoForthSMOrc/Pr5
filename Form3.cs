@@ -65,6 +65,11 @@ namespace Practic5
             Password.Text = "";
             Password.Text = GetRandom(Password.Name.ToString());
         }
+
+        private void NewLogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
