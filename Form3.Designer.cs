@@ -74,6 +74,7 @@
             this.NewLogin.Name = "NewLogin";
             this.NewLogin.Size = new System.Drawing.Size(142, 34);
             this.NewLogin.TabIndex = 3;
+            this.NewLogin.TextChanged += new System.EventHandler(this.NewLogin_TextChanged);
             // 
             // button1
             // 
